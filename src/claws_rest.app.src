@@ -1,0 +1,13 @@
+{application, claws_rest, [
+    {description, "REST Client for Snatch"},
+    {vsn, git},
+    {registered, []},
+    {applications, [kernel,
+                    stdlib,
+                    snatch,
+                    ibrowse]},
+    {env, []},
+    {maintainers, ["Manuel Rubio"]},
+    {licenses, ["Apache License 2.1"]},
+    {links, [{"Github", "https://github.com/snatch-xmpp/claws_rest"}]}
+]}.
